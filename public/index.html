@@ -1,9 +1,212 @@
 <!DOCTYPE html>
-<html lang="es">
+<html class="no-js" lang="es">
 	<head>
-		<meta charset="utf-8">
-		<title></title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Corgi and the Autumn Winds</title>
+		<meta property="og:title" content="Corgi and the Autumn Winds">
+		<meta name="description" content="Ayuda a Corgi en su increíble aventura a través del Bosque encantado" />
+		<meta property="og:description" content="Ayuda a Corgi en su increíble aventura a través del Bosque encantado">
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+        <meta property="og:image" content="img/favicon.ico">
+		<meta name="keywords" content="corgi, descarga, odei, 2d, videojuego" />
+		<meta name="author" content="Odei Riveiro Zafra" />
 	</head>
 	<body>
+		<div class="container">
+			<header id="header" class="top-header">
+				<h1>Corgi and the Autumn Winds</h1>
+				<span class="message">Esta resolución no tiene pantalla de vista ampliada</span>
+				<button class="slider-switch">Cambiar vista</button>
+			</header>
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>Panel de Navegación</h2>
+					<span class="info-drag">Arrastra Sliders</span>
+					<span class="info-keys">Usa Flechas</span>
+					<span class="info-switch">Cambia Vista</span>
+					<button>¡Adelante!</button>	
+				</div>
+			</div>
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+						<div class="slide" data-content="content-1">
+							<div class="img-wrap"><img src="img/1.jpg" alt="img1"/></div>
+							<h2>Historia<span>Conoce la increíble historia de Corgi</span></h2>
+							<button class="content-switch">Leer más</button>
+						</div>
+						<div class="slide" data-content="content-2">
+							<div class="img-wrap"><img src="img/2.jpg" alt="img2"/></div>
+							<h2>Personajes<span>Descubre personajes inólvidables durante tu aventura</span></h2>
+							<button class="content-switch">Leer más</button>
+						</div>
+						<div class="slide" data-content="content-3">
+							<div class="img-wrap"><img src="img/3.jpg" alt="img3"/></div>
+							<h2>Multimedia<span>Accede a contenido exclusivo de forma gratuita</span></h2>
+							<button class="content-switch">Leer más</button>
+						</div>
+						<div class="slide" data-content="content-4">
+							<div class="img-wrap"><img src="img/4.jpg" alt="img4"/></div>
+							<h2>Descarga<span>Ya tienes disponible el manual y el juego</span></h2>
+							<button class="content-switch">Leer más</button>
+						</div>
+					</div>
+				</section>
+				<section class="pages">
+					<div class="content" data-content="content-1">
+						<h2>Historia<span>Conoce la increíble historia de Corgi</span></h2>
+						<p>Corgi, es una pequeña criatura que habita en paz y armonía a las afueras del Bosque encantado. Vive feliz y despreocupadamente en su acogedor hogar hasta que un día de repente una fuerte tormenta estalla y un enorme rayo impacta contra su casa provocando un gran incendio.</p>
+						<p>Su hogar comienza a arder y ni siquiera la lluvia es capaz de sofocar las llamas provocadas por la tormenta. Nuestro amigo no sabe que hacer ni adonde ir, por suerte, el Hada Mágica del Bosque acude en su ayuda. El Hada del Bosque logra disipar el fuego, pero el hogar de Corgi queda totalmente destruido por las llamas.</p>
+						<p>Sin hogar y con el Invierno cerca, Corgi teme no tener tiempo suficiente para reconstruir su casa. El Hada le cuenta a nuestro amigo que en lo más profundo del Bosque podra encontrar al Guardián del Invierno y que deberá pedirle que retrase la llegada de la próxima estación para tener tiempo de reconstruir su casa.</p>
+						<p>Aún esperanzado, Corgi decide partir sin demora hacia el Bosque para encontrar al Guardián. ¿Logrará encontrar al Guardián?¿Tendrá tiempo para reconstruir su hogar?</p>
+						<p>Sólo tú puedes ayudar a Corgi en su búsqueda</p>
+					</div>
+					<div class="content" data-content="content-2">
+						<h2>Personajes<span>Descubre personajes inólvidables durante tu aventura</span></h2>
+						<p>A lo largo de tu aventura por el Bosque encantado podrás encontrar fantásticos personajes, algunos de ellos no dudarán en ayudarte con nobles intenciones, otros en cambio, te considerarán una amenaza e intentarán atacarte en cualquier momento.</p>
+						<p>Se precavido durante tu viaje, los peligros acechan en cada rincón y nunca sabrás las verdaderas intenciones de las criaturas con las que te encuentres a lo largo de tu aventura.</p><br/><br/>
+						<section class="main">
+							<ul id="st-stack" class="st-stack-raw">
+								<li><div class="st-item"><a href="img/corgi.png" target="_blank"><img alt="corgi" src="img/corgi.png"/></a></div><div class="st-title"><h2>Corgi</h2><h3>Nuestro pequeño gran héroe</h3></div></li>
+								<li><div class="st-item"><a href="img/hada.png" target="_blank"><img alt="hada" src="img/hada.png"/></a></div><div class="st-title"><h2>Hada del Bosque</h2><h3>Te ayudará siempre que lo necesites</h3></div></li>
+								<li><div class="st-item"><a href="img/guardian.png" target="_blank"><img alt="guardian" src="img/guardian.png"/></a></div><div class="st-title"><h2>Guardián del Invierno</h2><h3>Lo encontrarás en lo más profundo del Bosque</h3></div></li>
+								<li><div class="st-item"><a href="img/cria.png" target="_blank"><img alt="cria" src="img/cria.png"/></a></div><div class="st-title"><h2>Cría de Pájaro</h2><h3>Te seguirá donde quiera que vayas</h3></div></li>
+								<li><div class="st-item"><a href="img/arana.png" target="_blank"><img alt="arana" src="img/arana.png"/></a></div><div class="st-title"><h2>Araña Venenosa</h2><h3>No dejes que te atrape..</h3></div></li>
+								<li><div class="st-item"><a href="img/diablillo.png" target="_blank"><img alt="diablillo" src="img/diablillo.png"/></a></div><div class="st-title"><h2>Diablillo</h2><h3>Tan juguetón como pillo</h3></div></li>
+								<li><div class="st-item"><a href="img/trasgo.png" target="_blank"><img alt="trasgo" src="img/trasgo.png"/></a></div><div class="st-title"><h2>Trasgo Salvaje</h2><h3>Te perseguirá hayá donde vayas</h3></div></li>
+								<li><div class="st-item"><a href="img/murcielago.png" target="_blank"><img alt="murcielago" src="img/murcielago.png"/></a></div><div class="st-title"><h2>Murciélago</h2><h3>Mejor no despertarlo..</h3></div></li>
+								<li><div class="st-item"><a href="img/pezespada.png" target="_blank"><img alt="pezespada" src="img/pezespada.png"/></a></div><div class="st-title"><h2>Pez Espada</h2><h3>Cuidado con su pico</h3></div></li>
+								<li><div class="st-item"><a href="img/pezglobo.png" target="_blank"><img alt="pezglobo" src="img/pezglobo.png"/></a></div><div class="st-title"><h2>Pez Globo</h2><h3>Evita sus mordiscos</h3></div></li>
+							</ul>
+						</section><br/><br/><br/>
+					</div>
+					<div class="content" data-content="content-3">
+						<h2>Multimedia<span>Accede a contenido exclusivo de forma gratuita</span></h2>
+						<p>En ésta sección podrás visualizar el tráiler de lanzamiento y descargar de manera gratuita algunos de los temas de Corgi and the Autumn Winds y parte del arte conceptual y piezas artísticas utilizadas y/o desarrolladas para nuestro videojuego.</p><br/><br/>
+						<div class="youtubevideowrap">
+							<div class="video-responsive">
+								<iframe src="https://www.youtube.com/embed/kBb3b9S3Fps" style="border:0;" allowfullscreen></iframe>
+							</div>
+						</div>
+						<ul class="grid2 grid2--xray">
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo1web.jpg" target="_blank"><img src="img/fondo1.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Claros Tenebrosos</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo2web.jpg" target="_blank"><img src="img/fondo2.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Bosquejo Lúgrube</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo3web.jpg" target="_blank"><img src="img/fondo3.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Colina Primigenia</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo4web.jpg" target="_blank"><img src="img/fondo4.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Páramo Sombrío</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo5web.jpg" target="_blank"><img src="img/fondo5.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Raíz Ancestral</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo6web.jpg" target="_blank"><img src="img/fondo6.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Caverna Invernal</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo7web.jpg" target="_blank"><img src="img/fondo7.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Árbol Sagrado</div>
+							</li>
+							<li class="grid2__item">
+								<div class="grid2__img grid2__img--example-3">
+									<a href="img/fondo8web.jpg" target="_blank"><img src="img/fondo8.jpg" class="tilt-effect" alt="corgi" data-tilt-options='{ "extraImgs" : false }' /></a>
+								</div>
+								<div class="grid2__item-title">Cascada Salvaje</div>
+							</li>
+						</ul>
+						<p class="related">También podría gustarte <a target="_blank" href="https://dribbble.com/MikaelGustafsson">Mikael Gustafsson</a></p>
+					</div>
+					<div class="content" data-content="content-4">
+						<h2>Descarga<span>Ya tienes disponible el manual y el juego</span></h2>
+						<p>Corgi and the Autumn Winds es un videojuego de plataformas de acción y aventura que combina el juego exploratorio con un guion narrativo.</p>
+						<p>Desarrollado como homenaje a otros grandes títulos del género, Corgi and the Autumn Winds es el resultado final de un Proyecto de fin de curso realizado con gran cariño y devoción, por lo que el 'equipo' entero del proyecto te agradece enormemente tu interés.</p>
+						<p>Disfruta de una aventura increíble descargando ya la última versión del juego (0.9.1). Actualmente sólo está disponible para PC en castellano (Windows 7+), pero próximamente lanzaremos versiones para otros S.O. con soporte multilenguaje.</p><br/><br/><br/><br/>
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+							<defs>
+								<filter id="filter-glitch-1">
+									<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp" />
+									<feOffset dx="-90" dy="-90" result="warpOffset" />
+									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+								</filter>
+							</defs>
+						</svg>
+						<button id="component-1" class="button button--5" onclick="location.href='rsc/corgi-and-the-autumn-winds.pdf'">Manual</button>&nbsp; &nbsp; &nbsp; &nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+							<defs>
+								<filter id="filter-glitch-2">
+									<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp" />
+									<feOffset dx="-90" dy="-90" result="warpOffset" />
+									<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+								</filter>
+							</defs>
+						</svg> &nbsp; &nbsp; &nbsp; 
+						<button id="component-2" class="button button--5" onclick="location.href='rsc/corgi-and-the-autumn-winds.zip'">&nbsp;Juego&nbsp;</button>
+						<br/><br/><br/>
+						<div class="share">
+							<button class="share-toggle-button">
+								<i class="share-icon fa fa-share-alt"></i>
+							</button>
+							<ul class="share-items">
+								<li class="share-item">
+									<a target="_blank" href="https://www.facebook.com/odei.riveirozafra" class="share-button">
+										<i class="share-icon fa fa-facebook"></i>
+									</a>
+								</li>
+								<li class="share-item">
+									<a target="_blank" href="https://twitter.com/odei1987" class="share-button">
+										<i class="share-icon fa fa-twitter"></i>
+									</a>
+								</li>
+								<li class="share-item">
+									<a target="_blank" href="https://www.youtube.com/user/OdeiRiveiro" class="share-button">
+										<i class="share-icon fa fa-youtube"></i>
+									</a>
+								</li>
+								<li class="share-item">
+									<a target="_blank" href="https://github.com/OdeiRZ" class="share-button">
+										<i class="share-icon fa fa-github"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+						  <defs>
+							<filter id="goo">
+							  <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
+							  <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo" />
+							  <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+							</filter>
+						  </defs>
+						</svg>
+					</div>
+				</section>
+			</div>
+		</div>
 	</body>
 </html>
