@@ -1,4 +1,4 @@
-Portal Corgi and the Autumn Winds 0.95
+Portal Corgi and the Autumn Winds 0.96
 =========================================
 
 Portal web desarrollado en JavaScript y HTML usado para promocionar el videojuego Corgi and the Autumn Winds.
@@ -16,8 +16,8 @@ la siguiente web [Corgi and the Autumn Winds].
 
 
 ## Licencia
-Esta aplicación se ofrece bajo licencia [AGPL versión 3].
+Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
 [Codrops]: https://tympanus.net/codrops/
 [Corgi and the Autumn Winds]: http://corgi-and-the-autumn-winds.esy.es/
-[AGPL versión 3]: http://www.gnu.org/licenses/agpl.html
+[GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
