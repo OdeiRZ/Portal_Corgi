@@ -11,8 +11,8 @@ La página es completamente adaptable (responsive) y está optimizada para todos
 un diseño atractivo y es totalmente interactiva tanto para versiones móviles como PC's. Su implementación se ha 
 llevado a cabo a través de diferentes plugins de la plataforma [Codrops].
 
-Para cualquier referencia relacionada con el juego, podemos ver el portal desplegado en un entorno real visitando 
-la siguiente web [Corgi and the Autumn Winds].
+Para cualquier referencia relacionada con el juego, podemos ver el portal desplegado visitando el siguiente enlace: 
+[Corgi and the Autumn Winds].
 
 ## Requisitos
 - Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
