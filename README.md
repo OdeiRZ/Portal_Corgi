@@ -5,7 +5,7 @@ Portal web desarrollado en JavaScript y HTML usado para promocionar el videojueg
 La plataforma cuenta con diferentes secciones para presentar el contenido del juego, un apartado historia con
 un resumen de la narración del juego, una sección personajes con el listado de los protagonistas de la trama,
 otro apartado multimedia con el tráiler de lanzamiento y varias piezas de arte conceptual del mismo, y una sección
-descarga con el manual del juego, programa y diversos enlaces.
+descarga con el manual del juego, ejecutable y diversos enlaces.
 
 La página es completamente adaptable (responsive) y está optimizada para todos los navegadores conocidos, presenta
 un diseño atractivo y es totalmente interactiva tanto para versiones móviles como PC's. Su implementación se ha 
