@@ -25,5 +25,5 @@ Esta aplicación se ofrece bajo licencia [GPL versión 3].
 [Opera]: http://www.opera.com/es
 [Microsoft Edge]: https://www.microsoft.com/es-es/windows/microsoft-edge
 [Codrops]: https://tympanus.net/codrops/
-[Corgi and the Autumn Winds]: http://corgi-and-the-autumn-winds.esy.es/
+[Corgi and the Autumn Winds]: http://www.corgiandtheautumnwinds.com/
 [GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
