@@ -1,4 +1,4 @@
-Portal Corgi and the Autumn Winds 0.96
+Portal Corgi and the Autumn Winds 0.97
 =========================================
 
 Portal web desarrollado en JavaScript y HTML usado para promocionar el videojuego Corgi and the Autumn Winds.
