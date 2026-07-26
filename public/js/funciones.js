@@ -65,6 +65,12 @@ $( function() {
 		btTl.restart();
 	  });
 	}
+	// Descarga: navega a la URL indicada en data-href al pulsar Manual/Juego
+	document.querySelectorAll( '.button--5[data-href]' ).forEach( function( bt ) {
+		bt.addEventListener( 'click', function() {
+			location.href = bt.getAttribute( 'data-href' );
+		} );
+	} );
 	initBt2();
 	function initBt2() {
 	  var bt = document.querySelectorAll('#component-2')[0];
