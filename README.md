@@ -1,29 +1,33 @@
-Portal Corgi and the Autumn Winds 0.97
-=========================================
+# Portal Corgi and the Autumn Winds
 
-Portal web desarrollado en JavaScript y HTML usado para promocionar el videojuego Corgi and the Autumn Winds.
-La plataforma cuenta con diferentes secciones para presentar el contenido del juego, un apartado historia con
-un resumen de la narración del juego, una sección personajes con el listado de los protagonistas de la trama,
-otro apartado multimedia con el tráiler de lanzamiento y varias piezas de arte conceptual del mismo, y una sección
-descarga con el manual del juego, ejecutable y diversos enlaces.
+Landing page promocional en HTML, CSS y JavaScript para el videojuego "Corgi and the Autumn Winds".
 
-La página es completamente adaptable (responsive) y está optimizada para todos los navegadores conocidos, presenta
-un diseño atractivo y es totalmente interactiva tanto para versiones móviles como PC's. Su implementación se ha 
-llevado a cabo a través de diferentes plugins de la plataforma [Codrops].
+## Características
 
-Para cualquier referencia relacionada con el juego, podemos ver el portal desplegado visitando el siguiente enlace: 
-[Corgi and the Autumn Winds].
+- Sección "Historia" con el resumen de la narrativa del juego.
+- Sección "Personajes" con el listado de los protagonistas de la trama.
+- Sección "Multimedia" con slideshow arrastrable (drag) de arte conceptual y hueco para el tráiler de lanzamiento.
+- Sección "Descarga" con enlaces al manual (PDF) y al ejecutable del juego (ZIP), incluidos en `public/rsc/`.
+- Botones con efecto de distorsión/glitch (filtros SVG animados con TweenMax) al interactuar con ellos.
+- Diseño responsive, adaptado tanto a móvil como a escritorio, construido sobre varios plugins de la plataforma Codrops (DragSlideshow, StackSlider).
 
-## Requisitos
-- Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
+## Tecnologías
+
+- HTML5 / CSS3 (con `normalize.css`)
+- JavaScript vanilla + jQuery
+- TweenMax / TimelineLite (animaciones)
+- Plugins de Codrops: `dragdealer.js`, `dragslideshow.js`, `jquery.stackslider.js`, `classie.js`
+- Modernizr, Font Awesome
+
+## Instalación / Cómo ejecutarlo
+
+No requiere instalación ni servidor:
+
+1. Clona el repositorio.
+2. Abre `public/index.html` directamente en un navegador (Chrome, Firefox, Edge, etc.), o sírvelo con cualquier servidor estático.
+
+Proyecto de portafolio: página promocional estática construida integrando y adaptando varios plugins/efectos de terceros (Codrops) sobre un diseño propio.
 
 ## Licencia
-Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
-[Chrome]: https://www.google.es/chrome/browser/desktop/index.html
-[Firefox]: https://www.mozilla.org/es-ES/firefox/new/
-[Opera]: http://www.opera.com/es
-[Microsoft Edge]: https://www.microsoft.com/es-es/windows/microsoft-edge
-[Codrops]: https://tympanus.net/codrops/
-[Corgi and the Autumn Winds]: http://www.corgiandtheautumnwinds.com/
-[GPL versión 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
+GPL versión 3 (ver archivo [LICENSE](LICENSE)).
